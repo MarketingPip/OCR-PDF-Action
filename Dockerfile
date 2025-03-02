@@ -5,7 +5,9 @@ FROM debian:stable
 RUN apt-get update -y && apt-get install -y python3 python3-pip tesseract-ocr ghostscript
 
 ## Install python project dependencies
-RUN pip3 install ocrmypdf
+RUN pip3 install ocrmypdf --break-system-packages
+
+# ADD . .
 
 ## Copy the Entry Point
 COPY entrypoint /usr/local/bin/
