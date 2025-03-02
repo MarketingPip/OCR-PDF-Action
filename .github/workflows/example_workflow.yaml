@@ -8,7 +8,7 @@ jobs:
     name: Runing OCR PDF Action
     steps:
     - uses: actions/checkout@v4
-    - uses: MarketingPipeline/OCR-PDF-Action@main
+    - uses: MarketingPip/OCR-PDF-Action@main
       with:
         # Define the folder or file to download
         input_file: .github/example_pdfs/Non-text-searchable.pdf
