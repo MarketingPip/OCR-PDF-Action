@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Runing OCR PDF Action
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - uses: MarketingPipeline/OCR-PDF-Action@main
       with:
         # Define the folder or file to download
