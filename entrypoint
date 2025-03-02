@@ -9,7 +9,7 @@ OUTPUTFILE=$2
 
 
 
-### File Path Option
+### File Path Option test
 if [ -z "$INPUTFILE" ]
 then
       echo "\Input file was not provided or could not be found, please provide a valid input file location - closing the script."
