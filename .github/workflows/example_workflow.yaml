@@ -11,7 +11,7 @@ jobs:
     - uses: MarketingPip/OCR-PDF-Action@main
       with:
         # Define the folder or file to download
-        input_file: .github/example_pdfs/Non-text-searchable.pdf
+        input_file: .github/example_pdfs/483826.pdf
         output_file: .github/example_pdfs/output_searchable.pdf
         
      # Commit the updates
